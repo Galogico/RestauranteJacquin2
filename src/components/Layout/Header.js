@@ -1,5 +1,6 @@
 import pratos from '../../Assets/meals.jpg'
 import classes from './Header.module.css'
+import HeaderCartButton from './HeaderCartButton'
 
 
 const Header = props =>{
@@ -10,7 +11,7 @@ const Header = props =>{
                     Jacquin's gourmet buffet
                 </h1>
                 <button>
-                    carro
+                    <HeaderCartButton/>
                 </button>
             </header>
             <div className={classes['main-image']}>
