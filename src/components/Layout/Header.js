@@ -10,9 +10,9 @@ const Header = props =>{
                 <h1>
                     Jacquin's gourmet buffet
                 </h1>
-                <button>
-                    <HeaderCartButton/>
-                </button>
+                
+                <HeaderCartButton/>
+                
             </header>
             <div className={classes['main-image']}>
                     <img src={pratos} alt="imagens dos pratos"></img>
