@@ -11,7 +11,7 @@ const Header = props =>{
                     Jacquin's gourmet buffet
                 </h1>
                 
-                <HeaderCartButton/>
+                <HeaderCartButton onShowCart={props.onShowCart}/>
                 
             </header>
             <div className={classes['main-image']}>
