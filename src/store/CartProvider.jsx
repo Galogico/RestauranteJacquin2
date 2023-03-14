@@ -24,7 +24,9 @@ const CartProvider = props =>{
     const addItemToCartHandler = (item)=>{
         dispatchCartAction({type: 'ADD', item: item})
     }
-    const removeItemFromCartHandler = ()=>{}
+    const removeItemFromCartHandler = (id)=>{
+        dispatchCartAction({type: 'REMOVE',id: id})
+    }
     const cartContext = {
         items: cartState.items,
         totalAmount: cartState.totalAmount,
